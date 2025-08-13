@@ -1,3 +1,33 @@
 body{
     margin:0;
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+figure{
+    margin: 0;
+}
+.post{
+    width: 500px;
+    height: 600px;
+    
+}
+.post-header{
+    padding: 5px;
+    width: 100%;
+    display: flex;
+    
+}
+.post-imagen > figure > img {
+    width: 320px;
+    height: 280px;
+    object-fit: contain;
+}
+.post-body{
+    padding: 5px;
+}
+.post-btn{
+    display:flex;
 }
