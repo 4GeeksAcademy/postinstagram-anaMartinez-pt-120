@@ -1,10 +1,12 @@
 body{
     margin:0;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 figure{
     margin: 0;
@@ -12,13 +14,33 @@ figure{
 .post{
     width: 500px;
     height: 600px;
-    
+    background-color: whitesmoke;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0;
 }
 .post-header{
     padding: 5px;
     width: 100%;
     display: flex;
+    justify-content: space-between;
+}
+.post-header-title{
+    margin:0;
+    display:flex;
+}
+.post-header-text > p{
+    display: block;
+    margin:0;
     
+}
+.fa-html5{
+    margin: auto 3px;
+}
+.fa-ellipsis-vertical{
+    font-size: 2rem;
+    margin: auto 0;
 }
 .post-imagen > figure > img {
     width: 320px;
@@ -30,4 +52,9 @@ figure{
 }
 .post-btn{
     display:flex;
+    justify-content: flex-start;
+}
+.fa-regular fa-bookmark{
+    display:flex;
+    justify-content: flex-end;
 }
